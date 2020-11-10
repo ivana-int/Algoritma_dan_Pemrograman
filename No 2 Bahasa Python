@@ -1,0 +1,12 @@
+#PROGRAM MATEMATIKA 
+#Menghitung Pengkuadratan Dari Hasil Jumlah Dua Bilangan 
+
+print("Program Penjumlahan dan Pengkuadratan")
+
+a = float(input("Masukkan angka pertama= ")
+b = float(input("Masukkan angka kedua= ")
+c = float(a) + float(b) 
+print("Hasil Penjumlahan = %f" %c)
+
+hasil = c * c
+print("Hasil pengkuadratan = %f" %hasil)
