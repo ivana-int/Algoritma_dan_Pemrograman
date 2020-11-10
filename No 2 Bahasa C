@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int a,b,jumlah,kuadrat;
+    printf("Masukkan bilangan pertama= ",&a);
+    scanf("%i",&a);
+    printf("Masukkan bilangan kedua= ",&b);
+    scanf("%i",&b);
+
+    jumlah=a+b;
+    kuadrat=jumlah*jumlah;
+
+    printf("\n Hasil Penjumlahan= %i",jumlah);
+    printf("\n Hasil Pengkuadratan= %i",kuadrat);
+
+    return 0;
+}
