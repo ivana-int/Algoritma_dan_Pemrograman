@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int a,b,c,hasil;
+    printf("Masukkan bilangan pertama= ",&a);
+    scanf("%i",&a);
+    printf("Masukkan bilangan kedua= ",&b);
+    scanf("%i",&b);
+    printf("Masukkan bilangan ketiga= ",&c);
+    scanf("%i",&c);
+    hasil=a*b*c;
+    printf("\n Hasil perkalian ketiga bilangan= %i",hasil);
+
+    return 0;
+}
